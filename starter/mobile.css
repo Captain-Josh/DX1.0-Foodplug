@@ -1,4 +1,4 @@
-@media screen and (max-width:851px) {
+@media screen and (max-width:1100px) {
    
    /* **** Header section starts here *****/
     .nav-desktop {
@@ -33,4 +33,11 @@
         margin: 20px 0;
     }
     /* **** About us section section ends here *****/
+
+    /* **** Explore food section ends here *****/
+
+    .food-card-item {
+        margin: 20px 0;
+    }
+    /* **** Explore food section ends here *****/
 }

@@ -277,9 +277,114 @@ width: 50%;
 }
 
 /* **** About us ends here *****/
-/* **** Major Fixes start here ****/
 
-/* **** Major Fixes ends here *****/
+
+/* **** waves button start here ****/
+
+.wave-button-container{
+    background:var( --gray-gradient), url(./img/about3.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 30px;
+}
+.wave-button-container h2{
+    color: var(--main-color);
+}
+.wave-button-container p{
+    margin: 20px 0;
+}
+.btn-waves{
+    margin: 30px;
+    background: var(--main-color);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--white-color);
+    border-radius: 50%;
+    color: var(--white-color);
+    font-size: 30px;
+
+    animation: ripple 2s infinite;
+
+    /* animation: name;
+    animation-duration: ;
+    animation-iteration-count: ; */
+
+}
+
+/* **** waves button ends here *****/
+
+/* <!-- Explore food section starts here  --> */
+.explore-food-section{
+    /* border: 3px solid tomato; */
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    border-bottom: 40px solid var(--main-color);
+}
+
+.explore-food-section h2 {
+    color: var(--main-color);
+}
+.explore-food-section p{
+    margin: 20px 0;
+}
+
+.food-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 3px solid blue; */
+    /* height: 400px; */
+}
+.food-card-item{
+    /* border: 3px solid red; */
+    width: 320px;
+}
+.food-img-container{
+    /* border: 3px solid black; */
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 30px ;
+    border-top-left-radius: 30px;
+    overflow: hidden;
+}
+.food-img-container img{
+    object-fit: cover;
+}
+.food-text-container{
+    width: 100%;
+
+}
+.food-text-container{
+    text-align: left;
+    margin: 8px 0;
+}
+
+.food-text-container h5{
+    font-size: 18px;
+    margin: 0 0 8px 0;
+    border-bottom: 0.5px solid var(--light-text-color);
+    padding-bottom: 10px;
+}
+
+.food-text-container h5 span{
+    color: var(--text-color);
+    text-decoration: line-through;
+}
+/* <!-- Explore food section ends here  --> */
+
+/* <!-- Explore food section starts here  --> */
+/* <!-- Explore food section ends here  --> */
+/* <!-- Explore food section starts here  --> */
+/* <!-- Explore food section ends here  --> */
 
 
 
