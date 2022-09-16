@@ -40,4 +40,36 @@
         margin: 20px 0;
     }
     /* **** Explore food section ends here *****/
+
+/* <!-- faq section starts here  --> */
+.faq-items {
+    min-width: 100%;}
+
+/* <!-- faq section ends here  --> */
+
+    /* <!-- parallax section starts here  --> */
+
+   .parallax{
+    flex-direction:column;
+    padding: 0 25px;
+    text-align: center;
+   } 
+/* <!-- parallax section ends here  --> */
+
+/* <!-- Footer Section section starts here  --> */
+
+footer {
+    flex-direction: column;
+
+}
+
+footer {
+    text-align: center;
+}
+.footer-icon-container{
+    margin: 15px 0;
+}
+/* <!-- Footer Section section ends here  --> */
+
+
 }
